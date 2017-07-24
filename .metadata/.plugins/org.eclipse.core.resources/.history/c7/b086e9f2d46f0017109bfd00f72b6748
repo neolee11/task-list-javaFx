@@ -1,0 +1,15 @@
+package application;
+
+import java.awt.TextField;
+
+import javafx.fxml.FXML;
+
+public class uiController {
+
+	@FXML
+    public TextField textfield;
+
+    public void initialize() {
+        textfield.setText("This is set through controller");
+    }
+}
